@@ -1,10 +1,10 @@
 from constraint import *
-
-
 #       SEND
 #      +MORE
 #      --------
 #      MONEY
+
+
 def sumvariables(*vars):
     #["S0", "E1", "N2", "D3", "M4", "O"5, "R6", "Y7"]
     x = vars[0]*1000 + vars[1]*100 + vars[2]*10 + vars[3]
