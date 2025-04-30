@@ -17,11 +17,11 @@ class Student:
 def calculate_grade(points):
     if points >= 90:
         return 10
-    elif points >80:
+    elif points >=80:
         return 9
-    elif points >70:
+    elif points >=70:
         return 8
-    elif points >60:
+    elif points >=60:
         return 7
     return 6
 
