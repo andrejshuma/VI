@@ -1,7 +1,7 @@
 import os
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
-from submission_script import *
-from dataset_script import dataset
+#from submission_script import *
+from zad1_dataset import dataset
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.naive_bayes import CategoricalNB
 
